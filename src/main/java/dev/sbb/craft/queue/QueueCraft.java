@@ -5,7 +5,6 @@ import java.util.List;
 
 
 
-//annotation of the class like author, version, etc
 
 /**
  * @author Saliou Bailo BAH
