@@ -3,6 +3,17 @@ package dev.sbb.craft.queue;
 import java.util.ArrayList;
 import java.util.List;
 
+
+
+//annotation of the class like author, version, etc
+
+/**
+ * @author Saliou Bailo BAH
+ * @version 1.0
+ * @param <T> the type of elements in the queue
+ *This class represents a queue data structure
+ */
+
 public class QueueCraft<T> implements Cloneable{
     private List<T> elements;
 
