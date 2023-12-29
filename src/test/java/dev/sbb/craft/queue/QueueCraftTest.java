@@ -155,6 +155,9 @@ class QueueCraftTest {
         QueueCraft<Double> clonedQueue = originalQueue.clone();
 
         assertEquals(originalQueue, clonedQueue);
+
         assertNotSame(originalQueue, clonedQueue);
     }
+
+
 }
